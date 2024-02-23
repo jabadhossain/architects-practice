@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Shared Styles */
+* {
+    font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    background-color: #ff900e;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border: 0;
+}
+
+/* header Styles */
+header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding: 20px 240px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #121212;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 2em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* banner Styles */
+.banner-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner img {
+    margin-top: 25px;
+    width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header {
+        padding: 30px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+}
